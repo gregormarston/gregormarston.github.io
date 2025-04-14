@@ -57,9 +57,10 @@ h1 {
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 fixed columns */
-    gap: 1.5em; /* Proper spacing between items */
+    gap: 1em; /* Proper spacing between items */
     padding: 0 1em;
     box-sizing: border-box;
+    justify-items: center;
 }
 
 .gallery-container figure {
