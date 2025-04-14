@@ -80,6 +80,15 @@ h1 {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /*These two lines make tumbnails square. Delete them to revert thumbnails to original sizes*/
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.03); /* Optional: Adds a subtle zoom effect */
 }
 
 .gallery-container figcaption {
