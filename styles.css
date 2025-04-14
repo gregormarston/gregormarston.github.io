@@ -83,8 +83,8 @@ h1 {
     cursor: pointer;
     transition: transform 0.3s ease;
     /*These two lines make tumbnails square. Delete them to revert thumbnails to original sizes*/
-    aspect-ratio: 1;
-    object-fit: cover;
+    /* aspect-ratio: 1;
+    object-fit: cover; */
 }
 
 .gallery-container img:hover {
